@@ -103,7 +103,7 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
             Text(
-              "Discover new photos all",
+              "Discover new photos",
               style: TextStyle(
                   color: Colors.black87,
                   fontFamily: 'Overpass',
