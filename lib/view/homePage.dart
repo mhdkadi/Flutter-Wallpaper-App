@@ -27,7 +27,6 @@ class _HomePageState extends State<HomePage> {
       });
     });
     _scrollController.addListener(() {
-      print(_scrollController.position.pixels);
       if (_scrollController.position.pixels ==
           _scrollController.position.maxScrollExtent) {
         page++;

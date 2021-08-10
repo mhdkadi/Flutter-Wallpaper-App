@@ -45,7 +45,10 @@ Widget wallPaper(List<dynamic> listPhotos, BuildContext context) {
                         imageUrl: item["portrait"],
                         placeholder: (context, url) => Container(
                           child: Center(
-                            child: CircularProgressIndicator(),
+                            child: Padding(
+                              padding: const EdgeInsets.only(bottom: 5, top: 5),
+                              child: CircularProgressIndicator(),
+                            ),
                           ),
                         ),
                         fit: BoxFit.cover,
