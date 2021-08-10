@@ -38,7 +38,7 @@ Make sure finish [install Flutter](https://flutter.io/get-started/install/) succ
 - [x] Fetch wallpapers from Unsplash site using its API.
 - [x] Refresh and load more wallpaper when scroll to bottom of screen.
 - [x] Search using keywords.
-- [x] The app built whit MVC design pattern.
+- [x] The app built with MVC design pattern.
 - [x] List of categories.
 
 ## What's left?
