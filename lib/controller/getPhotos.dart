@@ -2,7 +2,7 @@ import 'package:wallpaper_flutter/model/services.dart';
 
 class GetPhotos {
   //TODO: PUT YOUR UNSPLASH APIKEY
-  String apiKEY = 'WRhWAYcJZOy-xruGBn__fvVjaPEV171Tikrcgmsn3lM';
+  String apiKEY = 'PUT YOUR UNSPLASH APIKEY';
   ApiServices _apiServices = ApiServices();
   Future getTrendingPhotos(int page) async {
     List photos = [];
