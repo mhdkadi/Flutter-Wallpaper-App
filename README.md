@@ -46,7 +46,6 @@ Make sure finish [install Flutter](https://flutter.io/get-started/install/) succ
 - Set Image as Wallpaper.
 - Make wallpapers fit the device screen.
 - Make the app responsive according to various screen sizes.
-- Implement routs to pages.
 - Implement stat management using provider.
 
 
