@@ -11,14 +11,8 @@ class CategorieWidget extends StatelessWidget {
         ActionChip(
           label: Text(categorie),
           onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => CategoriePage(
-                  categorie: categorie,
-                ),
-              ),
-            );
+            Navigator.of(context)
+                .pushNamed('\CategoriePage', arguments: categorie);
           },
           backgroundColor: Colors.blueGrey[50],
         ),

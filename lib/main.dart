@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:wallpaper_flutter/consts/string.dart';
-import 'package:wallpaper_flutter/view/homePage.dart';
+import 'package:wallpaper_flutter/controller/routesGeneratere.dart';
 
 void main() {
   runApp(WallPaperFlutter());
@@ -15,7 +15,8 @@ class WallPaperFlutter extends StatelessWidget {
       title: appTitle,
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primaryColor: Colors.white),
-      home: HomePage(),
+      initialRoute: '\HomePage',
+      onGenerateRoute: Routes.routesGenerater,
     );
   }
 }

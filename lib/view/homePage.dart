@@ -70,17 +70,9 @@ class _HomePageState extends State<HomePage> {
                   InkWell(
                     onTap: () {
                       if (_searchController.text.isNotEmpty) {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => SearchPage(
-                              searchText: _searchController.text,
-                            ),
-                          ),
-                        );
-                      } else {
-                        //TODO
-                      }
+                        Navigator.of(context).pushNamed('\SearchPage',
+                            arguments: _searchController.text);
+                      } else {}
                     },
                     child: Container(
                       child: Icon(Icons.search),

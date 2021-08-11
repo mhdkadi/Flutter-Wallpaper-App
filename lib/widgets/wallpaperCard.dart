@@ -18,14 +18,7 @@ Widget wallPaper(List<dynamic> listPhotos, BuildContext context) {
       children: listPhotos.map((item) {
         return InkWell(
           onTap: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => ImagePage(
-                  photo: item,
-                ),
-              ),
-            );
+            Navigator.of(context).pushNamed('\ImagePage', arguments: item);
           },
           child: Container(
             decoration: BoxDecoration(
